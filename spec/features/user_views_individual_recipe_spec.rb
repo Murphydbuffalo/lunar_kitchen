@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 feature "User views a recipe" do
-  scenario "user the basic recipe information" do
+  scenario "user sees the basic recipe information" do
     visit '/recipes/556'
 
     title = "Rosemary Duck with Apricots"
